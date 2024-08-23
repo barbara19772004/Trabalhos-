@@ -1,2 +1,13 @@
 1- a) A relação entre a LGPD e o Data Centers no Brasil:
-  
+  A Lei Geral de Proteção de Dados (LGPD - Lei 13.709/18) foi promulgada para proteger os direitos fundamentais de liberdade e de privacidade e a livre formação da personalidade de cada indivíduo, ela establece um conjunto de regras para a coleta, tratamento, armazenamento e compartilhamento de dados pessoais. Um data center corresponde a um local físico que armazena máquinas de computação e seus equipamentos de hardware relacionados, ele contém a infraestrutura de computação que os sistemas de TI exigem, como servidores, unidades de armazenamento de dados e equipamentos de rede. 
+  A relação entre os dois dá-se na medida em que é preciso assegurar que as informações e sistemas hospedados nos Data Centers possam ser acessados a qualquer momento e que a estrutura do controlador do Data Center, que é o local onde rodam o sistema de dados e a rede de dados, seja instalada e mantida de forma a operar com base nos preceitos da LGPD, obrigando que as organizações sejam mais responsáveis com o gerenciamento das informações armazenadas.
+Fonte:gov.br, thrive TI, lgpdbrasil, amazonwebservices. 
+
+b) Formatos de arquivos de dados proprietários e abertos:
+b.1) Os exemplos de formatos de arquivos proprietários são aqueles controlados e definidos por interesses privados, são eles DWG (AutoCad Drawing), SWF (Schockwave Flash), DOC (formato proprietário de texto) e PPT (formato proprietário de apresentação de slides), por exemplo. 
+  Já os exemplos de formatos de arquivos abertos são aqueles que podem ser acessados e utilizados por softwares livres usando uma especificação técnica de domínio público para a descrição e armazenamento de dados digitais, livre de restrições legais para o seu uso garantindo o acesso de dados a longo prazo sem inseguranças jurídicas, são eles: Json (uma linguagem de documentação), HTML, etc. 
+Fonte:campusvirtualfiocruz, the open data handbook
+
+b.2) Dados públicos são aqueles que não estão sujeitos a limitações válidas de privacidade, segurança ou controle de acesso, reguladas por estatutos logo, as escolhas entre formatos de arquivos abertos e proprietários têm implicações diretas na acessibilidade, transparência, interoperabilidade, preservação a longo prazo, custo, controle e segurança dos dados públicos. 
+  Com isso, adotar formatos abertos é geralmente visto como uma prática melhor, especialmente em contextos onde o acesso público e a longevidade dos dados são prioritários.
+Fonte:sepro.gov, tesourotransparente.gov, chatgpt
