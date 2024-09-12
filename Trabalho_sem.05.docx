@@ -1,0 +1,31 @@
+Exemplo de um código de estrutura de repetição em Python:
+crimes = [  {"nome": "Furto", "artigo": 155, "pena_minima": 1, "pena_maxima": 4},
+    {"nome": "Roubo", "artigo": 157, "pena_minima": 4, "pena_maxima": 10},
+    {"nome": "Homicídio", "artigo": 121, "pena_minima": 6, "pena_maxima": 20},
+    {"nome": "Estelionato", "artigo": 171, "pena_minima": 1, "pena_maxima": 5},]
+for crime in crimes:
+    print(f"Crime: {crime['nome']}")
+    print(f"Artigo: {crime['artigo']} do Código Penal")
+    print(f"Pena: de {crime['pena_minima']} a {crime['pena_maxima']} anos")
+    print("-" * 30)
+
+Exemplo de uma estrutura de tomada de decisão:
+condenacoes = [ 
+    {"nome": "Luiza", "crime": "Furto", "pena_final": 3},
+    {"nome": "Maria", "crime": "Roubo", "pena_final": 5},
+    {"nome": "Lucas", "crime": "Homicídio", "pena_final": 12},
+    {"nome": "Ana", "crime": "Estelionato", "pena_final": 2},
+    {"nome": "Arthur", "crime": "Corrupção", "pena_final": 4}
+]
+
+for condenacao in condenacoes:
+    print(f"Nome: {condenacao['nome']}")
+    print(f"Crime: {condenacao['crime']}")
+    print(f"Pena final: {condenacao['pena_final']} anos")
+    
+    if condenacao["pena_final"] > 4:
+        print("Substituição da pena privativa de liberdade por restritiva de direitos: Não permitida")
+    else:
+        print("Substituição da pena privativa de liberdade por restritiva de direitos: Permitida")
+    
+    print("-" * 30)
