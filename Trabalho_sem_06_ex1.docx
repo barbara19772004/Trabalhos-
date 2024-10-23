@@ -1,0 +1,12 @@
+1- O Bubble Sort é um algoritmo de ordenação simples que organiza uma lista de elementos comparando pares de itens adjacentes e trocando-os, se estiverem fora de ordem. O processo é repetido até que a lista esteja completamente ordenada.
+  
+ array = [5, 2, 9, 1, 5, 6]
+print("Array original:", array)
+bubble_sort(array) 
+print("Array ordenado:", array)
+
+Array original: [5, 2, 9, 1, 5, 6]
+Array ordenado: [1, 2, 5, 5, 6, 9]
+
+
+  
